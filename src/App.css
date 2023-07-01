@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 1fr;
-    gap: 10px;
   }
 
 
@@ -10,7 +9,6 @@
   .nav {
     grid-column: 1 / 4; /* Span all three columns */
     grid-row: 1;
-    background-color: lightgray;
     padding: 10px;
   }
   

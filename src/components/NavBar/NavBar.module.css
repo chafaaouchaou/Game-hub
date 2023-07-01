@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+}
