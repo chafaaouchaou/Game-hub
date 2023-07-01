@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+  }
+
+
+
+  .nav {
+    grid-column: 1 / 4; /* Span all three columns */
+    grid-row: 1;
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .content {
+    grid-column: 2 / 4; /* Span from column 2 to 4 (exclusive) */
+    grid-row: 2;
+    background-color: lightgreen;
+    padding: 10px;
+  }
+
+  @media (max-width: 768px) {
+       .sidebar {
+      display: none; 
+    }
+
+
+    .content {
+        grid-column: 1 / 4 ;
+      }
+  
+  }
