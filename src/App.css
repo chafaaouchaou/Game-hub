@@ -15,14 +15,12 @@
   .sidebar {
     grid-column: 1;
     grid-row: 2;
-    background-color: lightblue;
     padding: 10px;
   }
   
   .content {
     grid-column: 2 / 4; /* Span from column 2 to 4 (exclusive) */
     grid-row: 2;
-    background-color: lightgreen;
     padding: 10px;
   }
 
