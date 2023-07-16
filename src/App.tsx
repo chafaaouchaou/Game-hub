@@ -9,7 +9,9 @@ function App() {
       <div className="nav">
         <NavBar />
       </div>
-      <GenreList />
+      <div className="sidebar">
+        <GenreList />
+      </div>
       <div className="content">
         <GamesGrid />
       </div>
