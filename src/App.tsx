@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import GamesGrid from "./components/GameGrid/GamesGrid";
+import GenreList from "./components/GenreList";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <div className="nav">
         <NavBar />
       </div>
-      <div className="sidebar">Sidebar</div>
+      <GenreList />
       <div className="content">
         <GamesGrid />
       </div>
