@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
-import GamesGrid from "./components/GamesGrid";
+import GamesGrid from "./components/GameGrid/GamesGrid";
 
 function App() {
   return (
