@@ -14,7 +14,10 @@ function App() {
         <NavBar />
       </div>
       <div className="sidebar">
-        <GenreList onSelectGenre={(genre) => setselectedGenre(genre)} />
+        <GenreList
+          selectedGenre={selectedGenre}
+          onSelectGenre={(genre) => setselectedGenre(genre)}
+        />
       </div>
       <div className="content">
         <GamesGrid selectedGenre={selectedGenre} />
