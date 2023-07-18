@@ -1,10 +1,8 @@
 import { Text } from "@chakra-ui/react";
-import { Platform } from "../../hooks/usePlatforms";
 import GameCard from "../GameCard";
 import style from "./GameGrid.module.css";
 import GameCardSkeleton from "../GameCardSkeleton";
 import GameCardContainer from "../GameCardContainer";
-import { Genre } from "../../hooks/useGenre";
 import useGames from "../../hooks/useGames";
 import { GameQuery } from "../../App";
 
