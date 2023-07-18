@@ -13,6 +13,7 @@ export interface GameQuery {
   genre: Genre | null;
   platform: Platform | null;
   filter: { value: string; label: string } | null;
+  searchquery: string | null;
 }
 
 function App() {
@@ -21,7 +22,11 @@ function App() {
   return (
     <div className="grid-container">
       <div className="nav">
-        <NavBar />
+        <NavBar
+          onSearch={(searchquery) => {
+            setGameQuery({ ...GameQuery, searchquery });
+          }}
+        />
       </div>
       <div className="sidebar">
         <GenreList
