@@ -2,13 +2,13 @@
 
 **Tech Stack:**
 
-* **Frontend** 
-* React 
-* TypeScript 
-* Vite
+* **Frontend:** 
+* 1-React 
+* 2-TypeScript 
+* 3-Vite
 
 * **Backend:** 
-* Rawg api 
+* 1-Rawg api 
 
 **Live Demo:**
 
