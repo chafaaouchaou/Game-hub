@@ -1,11 +1,13 @@
-## GameHub: Your One-Stop Shop for All Things Gaming
+## GameHub: 
 
 **Tech Stack:**
 
-* **Frontend:** React 
-* **TypeScript:** 
-* **Vite:** 
-* **Rawg  api:** 
+* **Frontend** React 
+ **TypeScript** 
+ **Vite**
+
+* **Backend:** 
+ **Rawg api:** 
 
 **Live Demo:**
 
